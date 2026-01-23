@@ -1,0 +1,6 @@
+Hello World
+this is the new line
+apple 10
+banana 10
+guava 8
+watermelon 10
