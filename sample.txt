@@ -1,15 +1,11 @@
-
-Hello World
-this is the new line
-apple 10
-banana 10
-guava 8
-watermelon 10
-
 This is shrejal mohanty
 Checking if the data is valid
 Lets add the nymber 12345ADD
+*&shrejalmohanty
+2#$ who is this from
 hello123
+@@@bad
 good data
+123###
+     
 valid99
-
