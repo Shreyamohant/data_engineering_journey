@@ -3,5 +3,10 @@ from logger import log
 
 def is_valid(line):
     pattern = r'^[a-zA-Z0-9\s\n]+$'
-    return bool(re.match(pattern, line.strip()))
+    cleaned_line = line.strip()
+    if re.match(pattern, cleaned_line):
+        return True
+    else:
+        log(f"validation failed:{cleaned_line}")
+        return False
     
