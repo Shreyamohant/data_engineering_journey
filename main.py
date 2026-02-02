@@ -21,14 +21,14 @@ def main():
     invalid_count =0
     cleaned_data =[]
 
-    for n in lines:
+    for line in lines:
        total_lines +=1
-       if is_valid(n):
+       if is_valid(line):
           valid_count +=1
-          cleaned_data.append(clean_data(n))
+          cleaned_data.append(clean_data(line))
        else:
           invalid_count +=1
-          log(f"Rejected Line {total_lines}:{n.strip()}")
+          log(f"Rejected Line {total_lines}:{line.strip()}")
           
         
   
